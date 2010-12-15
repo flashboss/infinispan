@@ -35,7 +35,7 @@
 
       <dependency>
          <groupId>org.jboss.marshalling</groupId>
-         <artifactId>river</artifactId>
+         <artifactId>jboss-marshalling-river</artifactId>
          <version>${version.jboss.marshalling}</version>
       </dependency>
 
@@ -47,7 +47,7 @@
 
       <dependency>
          <groupId>org.jboss.marshalling</groupId>
-         <artifactId>marshalling-api</artifactId>
+         <artifactId>jboss-marshalling</artifactId>
          <version>${version.jboss.marshalling}</version>
       </dependency>
 
@@ -117,9 +117,6 @@
                   <Export-Package>
                      ${project.groupId}.*;version=${project.version};-split-package:=error
                   </Export-Package>
-		  <Import-Package>
-		     ${project.groupId}.*;!net.*|org.*,*
-		  </Import-Package>
                </instructions>
             </configuration>
          </plugin>
