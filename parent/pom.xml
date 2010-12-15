@@ -95,8 +95,8 @@
       <version.jackson>1.6.1</version.jackson>
       <version.javax.persistence>1.0</version.javax.persistence>
       <version.javax.servlet>2.5</version.javax.servlet>
-      <version.jboss.common.core>2.2.14.GA</version.jboss.common.core>
-      <version.jboss.marshalling>1.2.3.GA</version.jboss.marshalling>
+      <version.jboss.common.core>2.2.18-SNAPSHOT</version.jboss.common.core>
+      <version.jboss.marshalling>1.3.0.CR9-SNAPSHOT</version.jboss.marshalling>
       <version.jbossjta>4.9.0.GA</version.jbossjta>
       <version.jbossjts>4.9.0.GA</version.jbossjts>
       <version.jbossts-common>4.6.1.GA</version.jbossts-common>
@@ -104,7 +104,7 @@
       <version.jclouds>1.0-beta-7</version.jclouds>
       <version.jetty>6.1.25</version.jetty>
       <version.jgoodies.forms>1.0.5</version.jgoodies.forms>
-      <version.jgroups>2.10.1.GA</version.jgroups>
+      <version.jgroups>2.12.0.Alpha1</version.jgroups>
       <version.json>20090211</version.json>
       <version.jstl>1.2</version.jstl>
       <version.jta>1.0.1.GA</version.jta>
@@ -113,12 +113,8 @@
       <version.netty>3.2.3.Final</version.netty>
       <version.org.jboss.naming>5.0.3.GA</version.org.jboss.naming>
       <version.resteasy>2.0-beta-2</version.resteasy>
-<!--
       <version.rhq.pluginAnnotations>4.0.0-SNAPSHOT</version.rhq.pluginAnnotations>
       <version.rhq.plugingen>4.0.0-SNAPSHOT</version.rhq.plugingen>
--->
-      <version.rhq.pluginAnnotations>3.0.1</version.rhq.pluginAnnotations>
-      <version.rhq.plugingen>3.0.1</version.rhq.plugingen>
       <version.rhq>3.0.0</version.rhq>
       <version.scala>2.8.0</version.scala>
       <version.slf4j>1.6.1</version.slf4j>
